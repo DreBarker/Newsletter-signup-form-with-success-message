@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+  <div id="wrapper">
+    <div id="form">
+      <div class="left-content">
+
+        <h1 class="header">Stay updated!</h1>
+          <div class="content">
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+            <ul>
+              <li><img src="assets/images/icon-list.svg" alt="" srcset="">
+                <p>Product discovery and building what matters</p>
+              </li>
+              <li><img src="assets/images/icon-list.svg" alt="" srcset="">
+                <p>Measuring to ensure updates are a success</p>
+              </li>
+              <li><img src="assets/images/icon-list.svg" alt="" srcset="">
+                <p>And much more!</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="email-section">
+          <p class="email">Email address</p>
+          <div class="invalid-email">Valid email required</div>
+          </div>
+          <div class="email-input">
+            <input type="email" id="email" minlength="5" maxlength="30" placeholder="email@company.com">
+          </div>
+
+          
+            <p id="subscribe-btn">Subscribe to monthly newsletter</p>
+          
+
+      </div>
+
+      <div class="image-container">
+        <picture class="responsive-image">
+          <source media="(max-width: 414px)" srcset="assets/images/illustration-sign-up-mobile.svg" alt="mobile-img">
+          <img src="assets/images/illustration-sign-up-desktop.svg" class="desktop-image" alt="" srcset="">
+        </picture>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <img src="assets/images/icon-success.svg" alt="" srcset="">
+  <h1>Thanks for subscribing!</h1>
+
+  <p class="confirm-email"></p>
+
+  <p class="dismiss-btn">Dismiss message</p>
+
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
